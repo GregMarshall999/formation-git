@@ -15,6 +15,8 @@ import TheWelcome from './components/TheWelcome.vue'
   <main>
     <TheWelcome />
   </main>
+
+  <p>Pour un commit</p>
 </template>
 
 <style scoped>
