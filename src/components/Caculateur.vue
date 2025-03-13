@@ -8,16 +8,24 @@
     <label>C</label>
     <p>{{ c }}</p>
 
+    <label>Opération</label>
+    <select v-model="operator">
+        <option value="+">+</option>
+        <option value="*">*</option>
+    </select>
+
     <button @click="calculate">Calculate</button>
 </template>
 
 <script setup>
 
-import { ref } from 'vue';
+import { reactive, ref } from 'vue';
 
 const a = ref();
 const b = ref();
 const c = ref();
+
+const operator = reactive();
 
 const calculate = () => {
     c.value = a.value + b.value;
