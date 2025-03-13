@@ -1,4 +1,5 @@
 <script setup>
+import Caculateur from './components/Caculateur.vue';
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 </script>
@@ -15,6 +16,8 @@ import TheWelcome from './components/TheWelcome.vue'
   <main>
     <TheWelcome />
   </main>
+
+  <Caculateur />
 
   <p>Pour un commit</p>
 </template>
