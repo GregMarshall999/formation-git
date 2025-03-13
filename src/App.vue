@@ -19,7 +19,7 @@ import TheWelcome from './components/TheWelcome.vue'
 
   <Caculateur />
 
-  <p>Pour un commit</p>
+  <p>Modifé par master</p>
 </template>
 
 <style scoped>
