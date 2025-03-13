@@ -20,6 +20,7 @@ import TheWelcome from './components/TheWelcome.vue'
   <Caculateur />
 
   <p>Modifé par master</p>
+  <p>Modifé par calculateur</p>
 </template>
 
 <style scoped>
