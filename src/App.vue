@@ -21,6 +21,7 @@ import TheWelcome from './components/TheWelcome.vue'
 
   <p>Modifé par master</p>
   <p>Modifé par calculateur</p>
+  <p>Démonstration du STASH</p>
 </template>
 
 <style scoped>
