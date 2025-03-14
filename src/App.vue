@@ -24,6 +24,7 @@ import TheWelcome from './components/TheWelcome.vue'
   <p>Du contenu en plus</p>
   <p>Depuis InteliJ</p>
   <p>Opérateur apporte un changement</p>
+  <p>Opérateur terminé</p>
 </template>
 
 <style scoped>
