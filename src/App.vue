@@ -27,6 +27,7 @@ import TheWelcome from './components/TheWelcome.vue'
   <p>Opérateur Reset</p>
   <p>Opérateur apporte un changement</p>
   <p>Opérateur terminé</p>
+  <p>Master ajoute un commit</p>
 </template>
 
 <style scoped>
