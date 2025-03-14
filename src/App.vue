@@ -1,33 +1,9 @@
 <script setup>
 import Caculateur from './components/Caculateur.vue';
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
-
   <Caculateur />
-
-  <p>Modifé par cecile</p>
-  <p>Modifé par calculateur</p>
-  <p>Démonstration du STASH</p>
-  <p>Du contenu en plus</p>
-  <p>Depuis InteliJ</p>
-  <p>Opérateur Reset</p>
-  <p>Opérateur apporte un changement</p>
-  <p>Opérateur terminé</p>
-  <p>Master ajoute un commit</p>
 </template>
 
 <style scoped>
