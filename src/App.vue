@@ -27,6 +27,7 @@ import TheWelcome from './components/TheWelcome.vue'
   <p>Opérateur Reset</p>
   <p>Opérateur apporte un changement</p>
   <p>Opérateur terminé</p>
+  <p>Depuis Calculateur</p>
 </template>
 
 <style scoped>
