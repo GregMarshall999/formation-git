@@ -22,6 +22,7 @@ import TheWelcome from './components/TheWelcome.vue'
   <p>Modifé par cecile</p>
   <p>Modifé par calculateur</p>
   <p>Du contenu en plus</p>
+  <p>Opérateur apporte un changement</p>
 </template>
 
 <style scoped>
