@@ -21,8 +21,10 @@ import TheWelcome from './components/TheWelcome.vue'
 
   <p>Modifé par cecile</p>
   <p>Modifé par calculateur</p>
+  <p>Démonstration du STASH</p>
   <p>Du contenu en plus</p>
   <p>Depuis InteliJ</p>
+  <p>Opérateur Reset</p>
   <p>Opérateur apporte un changement</p>
   <p>Opérateur terminé</p>
 </template>
