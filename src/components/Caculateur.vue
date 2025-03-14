@@ -11,6 +11,7 @@
     <label>Opération</label>
     <select v-model="operator">
         <option value="+">+</option>
+        <option value="-">-</option>
         <option value="*">*</option>
         <option value="/">/</option>
     </select>
@@ -32,6 +33,9 @@ const calculate = () => {
     switch(operator.value) {
         case "+": 
             c.value = a.value + b.value;
+            break;
+        case "+": 
+            c.value = a.value - b.value;
             break;
         case "*":
             c.value = a.value * b.value;
