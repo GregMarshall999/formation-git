@@ -12,6 +12,7 @@
     <select v-model="operator">
         <option value="+">+</option>
         <option value="*">*</option>
+        <option value="/">/</option>
     </select>
 
     <button @click="calculate">Calculate</button>
@@ -19,16 +20,26 @@
 
 <script setup>
 
-import { reactive, ref } from 'vue';
+import { ref } from 'vue';
 
 const a = ref();
 const b = ref();
 const c = ref();
 
-const operator = reactive();
+const operator = ref();
 
 const calculate = () => {
-    c.value = a.value + b.value;
+    switch(operator.value) {
+        case "+": 
+            c.value = a.value + b.value;
+            break;
+        case "*":
+            c.value = a.value * b.value;
+            break;
+        case "/":
+            c.value = a.value / b.value;
+            break;
+    }
 }
 
 </script>
